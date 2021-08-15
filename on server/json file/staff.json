@@ -1,0 +1,115 @@
+{
+    "staff":
+        [
+            {"tag": "noanswer",
+            "patterns": [],
+            "responses": ["Xin lỗi, Chatbot chưa hiểu yêu cầu của bạn ! Bạn vui lòng gửi lại câu hỏi nhé !","Xin lỗi, KTX không hỗ trợ dịch vụ này nhé"],
+            "context": [""]
+            },
+            {"tag": "1",
+            "patterns":["giám đốc","thầy Tuấn Phúc","Trần Tuấn Phúc","Bí thư"],
+            "responses": ["Ông: Trần Tuấn Phúc là Giám đốc Trung Tâm dịch vụ KTX Bách Khoa. Bạn có thể gặp người này tại Phòng Giám đốc."]
+            },
+            {"tag": "2",
+            "patterns":["Nguyễn Thị Ái Trâm","Kế toán trưởng","trưởng kế toán","kế trưởng","trưởng phòng hành chính"],
+            "responses": ["Bà: Nguyễn Thị Ái Trâm là Kế toán trưởng - Trưởng phòng Tài chính kế hoạch. Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "3",
+            "patterns": ["Vũ Đỗ Uyên","chị Uyên","Trưởng Hành chinh","Trưởng phòng Hành chinh"],
+            "responses": ["Bà: Vũ Đỗ Uyên là Trưởng phòng Hành chính. Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "4",
+            "patterns": ["Vũ Trần Như An","phó hành chính","Phó bí thư Chi bộ","Phó phòng hành chính"],
+            "responses": ["Bà: Vũ Trần Như An là Phó Trưởng phòng Hành chính. Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "5",
+            "patterns": ["Nguyễn Văn Đạt","anh Đạt","Trợ lý Giám đốc","Trưởng Tổ Công nghệ thông tin"],
+            "responses": ["Ông: Nguyễn Văn Đạt là Trợ lý Giám đốc. Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "6",
+            "patterns": ["Nguyễn Ngô Kiêm Ái","Kế toán ","chị Ái"],
+            "responses": ["Bà: Nguyễn Ngô Kiêm Ái là Kế toán . Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "7",
+            "patterns": ["Thủ quỹ","Bùi Thị Anh Thư"],
+            "responses": ["Bà: Bùi Thị Anh Thư là Thủ quỹ . Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "8",
+            "patterns": ["Võ Thị Hương","Thư ký văn phòng"],
+            "responses": ["Bà: Võ Thị Hương là Thư ký văn phòng. Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "9",
+                "patterns": ["Nguyễn Thị Kim Bích","Thư ký văn phòng"],
+                "responses": ["Bà: Nguyễn Thị Kim Bích là Thư ký văn phòng. Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "10",
+            "patterns": ["Đoàn Minh Vững","Trưởng Ban QLTN","Thầy Vững","Phó Giám đốc","phó đốc"],
+            "responses": ["Ông: Đoàn Minh Vững là Phó Giám đốc -  Trưởng Ban QLTN. Bạn có thể gặp người này tại Phòng Phó giám đốc ktx."]
+            },
+            {"tag": "11",
+                "patterns": ["Lê Thành Phương","Phó Ban quản lý","Nội chính"],
+                "responses": ["Ông: Lê Thành Phương là Phó Ban quản lý. Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "12",
+                "patterns": ["Đặng Thị Thu Oanh","phó ban Dịch vụ ","chị Oanh"],
+                "responses": ["Bà: Đặng Thị Thu Oanh là Thư ký văn phòng. Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "13",
+                "patterns": ["Huỳnh Tấn Đông","Giám sát kỹ thuật M&E"],
+                "responses": ["Ông: Lê Thành Phương là Phó Ban quản lý. Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "14",
+                "patterns": ["Vũ Đức Phương","Kỹ thuật viên sửa chữa","Chủ tịch Công đoàn"],
+                "responses": ["Ông: Vũ Đức Phương là Chủ tịch công đoàn và Kỹ thuật viên sửa chữa. Bạn có thể gặp người này tại Văn phòng."]
+            },
+            {"tag": "15",
+                "patterns": ["Trần Hữu Trí","Kỹ thuật viên sửa chữa", "anh Trí"],
+                "responses": ["Ông: Trần Hữu Trí là Kỹ thuật viên sửa chữa. Bạn có thể gặp người này tại Văn phòng"]
+            },
+            {"tag": "16",
+                "patterns": ["Nguyễn Lương Phi","Quản lý tầng 6"],
+                "responses": ["Ông: Nguyễn Lương Phi là Quản lý tầng 6. Bạn có thể gặp người này tại Văn phòng"]
+            },
+            {"tag": "17",
+                "patterns": ["Phạm Hải Bằng","Quản lý tầng 10"],
+                "responses": ["Ông: Phạm Hải Bằng là Quản lý tầng 10. Bạn có thể gặp người này tại Văn phòng"]
+            },
+            {"tag": "18",
+                "patterns": ["Huỳnh Kim Thành","tầng 4"],
+                "responses": ["Ông: Huỳnh Kim Thành là Quản lý tầng 4. Bạn có thể gặp người này tại Văn phòng"]
+            },
+            {"tag": "19",
+                "patterns": ["Phan Nguyên Thiện Nhân","tang 8"],
+                "responses": ["Ông: Phan Nguyên Thiện Nhân là Quản lý tầng 8. Bạn có thể gặp người này tại Văn phòng"]
+            },
+            {"tag": "20",
+                "patterns": ["Trịnh Nguyễn Hoàng Anh","tang 2","y tế","bị thương"],
+                "responses": ["Bà: Trịnh Nguyễn Hoàng Anh là Quản lý tầng 2 và nhân viên y tế. Bạn có thể gặp người này tại phòng y tế."]
+            },
+            {"tag": "21",
+                "patterns": ["Trần Nguyễn Như Ngọc","y tá"],
+                "responses": ["Bà: Trần Nguyễn Như Ngọc là y tá. Bạn có thể gặp người này tại phòng y tế."]
+            },
+            {"tag": "22",
+                "patterns": ["Trương Thị Hợi","NV Phục vụ","vệ sinh", "cần dọn dẹp"],
+                "responses": ["Bà: Trần Nguyễn Như Ngọc là NV Vệ sinh. Bạn có thể liên hệ người này qua Ban quản lý toà nhà."]
+            },
+            {"tag": "23",
+                "patterns": ["Nguyễn Phú Đức","Kiểm soát cơ động","bảo vệ", "nhân viên bảo vệ","đội trưởng đội bảo vệ", "khi có đánh nhau thì gọi ai"],
+                "responses": ["Ông: Nguyễn Phú Đức là đội trưởng đội bảo vệ. Bạn có thể gặp người này tại phòng bảo vệ."]
+            },
+            {"tag": "24",
+                "patterns": ["Trần Văn Trí","bve","bảo vệ ngoài chú Đức","ngoài chú Đức","khác Đức","bảo vệ"],
+                "responses": ["Ông: Trần Văn Trí là bảo vệ. Bạn có thể gặp người này tại phòng bảo vệ."]
+            },
+            {"tag": "25",
+                "patterns": ["Những ai được ở trong Ký túc xá","ai được ở","loại người nàođược ở"],
+                "responses": ["Sinh viên Bách Khoa và những người có nhu cầu thuê"]
+            },
+            {"tag": "26",
+                "patterns": ["những ai được ưu tiên khi đăng ký","đối tượng lưu trú ưu tiên", "ưu tiên ai khi đăng ký","đối tượng ưu tiên đăng ký"],
+                "responses": ["Sinh viên năm nhất sẽ được ưu tiên hơn cả, ngoài ra các đợt ưu tiên khác nhau sẽ có những đối tượng ưu tiên khác nhau."]
+            }
+            
+        ]
+}

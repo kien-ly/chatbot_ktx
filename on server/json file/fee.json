@@ -1,0 +1,52 @@
+{"fee": [
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Xin lỗi, Chatbot chưa hiểu yêu cầu của bạn ! Bạn vui lòng gửi lại câu hỏi nhé !","Xin lỗi, KTX không hỗ trợ dịch vụ này nhé"],
+     "context": [""]
+    },
+    { "tag":"1",
+    "patterns":["Phòng dịch vụ 4sv","dịch 4","dịch vụ 4 người"],
+    "responses":["Giá tiền phòng dịch vụ 4 người là 2,000,000 VND/tháng"]
+    },
+    {"tag": "2",
+    "patterns": ["Phòng dịch vụ 6sv","Phòng dịch vụ 6 người","dịch 6"],
+    "responses":["Giá tiền phòng dịch vụ 6 người là 1,500,000 VND/tháng"]
+    },
+    {"tag": "3",
+    "patterns": ["thường 4 người ","4sv thường","thường 4","4 thường"],
+    "responses":["Giá tiền phòng thường 4 người là 1,200,000 VND/tháng"]
+    },
+    {"tag": "4",
+    "patterns": ["Phòng thường 6sv","6 thường","thường 6","lý dẫn"],
+    "responses":["Giá tiền phòng thường 6 người là 800,000 VND/tháng"]
+    },
+    {"tag": "5",
+    "patterns": ["8 thường","Phòng thường 8sv","giá 8 thường","thường 8 người"],
+    "responses":["Giá tiền phòng thường 8 người là 500,000 VND/tháng"]
+    },
+    {"tag": "6",
+    "patterns": ["xe đạp","xe đạp tháng","giá xe đạp tháng","giá đạp"],
+    "responses":["Giá gửi xe đạp là 30,000 VND/tháng"]
+    },
+    {"tag": "7",
+    "patterns": ["xe máy","giá xe máy","gửi xe máy","giá tiền gửi xe"],
+    "responses":["Giá gửi xe máy là 70,000 VND/tháng"]
+    },
+    {"tag": "8",
+    "patterns": ["thuê tủ lanh","thuê lạnh","tiền tủ lạnh"],
+    "responses":["Giá thuê tủ lanh là 200,000 VND/phòng/tháng"]
+    },
+    {"tag": "9",
+    "patterns": ["máy giặt","tiền máy giặt","thuê giặt","tiền giặt"],
+    "responses":["Giá thuê máy giặt là 200,000 VND/phòng/tháng"]   
+    },
+    {"tag": "10",
+    "patterns": ["sửa chữa","hư hỏng","trang thiết bị","thay thế"],
+    "responses":[""]
+    },
+    {"tag": "11",
+    "patterns": ["lò nướng","lò vi sóng","thuê lò vi sóng","giá tiền thuê lò vi sóng mỗi tháng"],
+    "responses":["KTX không cho thuê cũng như sử dụng lò nướng, lò vi sóng các loại trong phòng ở để đảm bảo an toàn cháy nổ!"]
+    }  
+]
+}

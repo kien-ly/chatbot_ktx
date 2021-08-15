@@ -1,0 +1,23 @@
+{"switch":[
+    {"tag": "greet",
+    "patterns": ["chào","hello","hi","bye","tạm biệt","cám ơn","thanks","see you later"],
+    "responses": []
+   },
+   {"tag": "staff",
+    "patterns": ["là ai","cán bộ","thầy","cô","ai","ai được","ai là","Ai","người nào"],
+    "responses": []
+   },
+   {"tag": "room",
+    "patterns": ["chỗ","gặp","ở đâu","văn phòng", "phòng nào"],
+    "responses": []
+   },
+   {"tag": "fee",
+    "patterns": ["giá tiền","phí","hàng tháng","bao tiền","tiền","giá","bao nhiêu"],
+    "responses": []
+   },
+   {"tag": "rule",
+    "patterns": ["có được","có được làm không","có không","có được","có thể"],
+    "responses": []
+   }
+    ]
+}

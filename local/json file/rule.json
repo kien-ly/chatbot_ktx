@@ -1,0 +1,69 @@
+{"rule":[
+  {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Xin lỗi, Chatbot chưa hiểu yêu cầu của bạn! Bạn vui lòng gửi lại câu hỏi nhé !"]
+  },
+  {"tag": "1",
+  "patterns": ["Có được nấu ăn trong ktx không ","nấu ăn","nấu","có được nấu cơm trong ktx không","nấu"],
+  "responses": [" Không nấu nướng, tàng trữ dụng cụ để chế biến và làm chín thức ăn trong phòng ở.", " Không được nấu ăn trong KTX nhé", "Tốt hơn là nên ra ngoài ăn"],
+  "context": [""]
+   },
+   {"tag": "2",
+    "patterns": ["  Nam giới có được xuống phòng nữ không ","nam vào phòng nữ","trai gái","nam nữ"],
+    "responses": [" Nam giới không được vô tầng nữ nhé!"],
+    "context": [""]
+  },
+   {"tag": "3",
+  "patterns": ["Giờ","thời gian mở cửa","ktx đóng của lúc mấy giờ"],
+  "responses": ["Giờ mở cổng KTX: từ 05 giờ đến 23 giờ (giới nghiêm, cấm ra vào: từ 0g đến 03g30)."],
+  "context": [""]
+  },
+  {
+   "tag": "4",
+  "patterns": ["ô tô", "giá gửi ô tô","xe hơi","ktx có nhận gửi xe hơi không"],
+  "responses": ["Xin lỗi, KTX chưa có dịch vụ gửi xe ô tô cho sinh viên"],
+  "context": [""]
+  },
+  {"tag": "5",
+    "patterns": ["thuốc lá","chỗ hút","hút thuốc","có được hút thuốc trong ktx không","có được hút thuốc lá không","thuốc lá"],
+    "responses": ["Nghiêm cấm hút thuốc bên trong toà nhà. KTX có khu vực hút thuốc là sân sau."],
+    "context": [""]
+    },
+  {"tag": "6",
+  "patterns": ["nhận hàng","nhận hộ", "hàng onl", "ship","nhận ship hàng","shipper","ktx có nhận hàng hộ không"],
+  "responses": ["KTX không nhận hộ hay giữ hộ hàng mua online nhé!"],
+  "context": [""]
+  },
+  {"tag": "7",
+    "patterns": ["gia hạn lưu trú","điều kiện ở tiếp", "ở tiếp","đkiện ở tiếp","được ở thêm"],
+    "responses": ["Gia hạn sinh viên đang ở, không bị cảnh cáo, đủ tổng điểm lưu trú sẽ chọn phòng theo từng đợt ưu tiên."],
+    "context": [""]
+    },
+  {"tag": "8",
+  "patterns": ["CLB","sinh hoạt","câu lạc bộ"],
+  "responses": ["Bạn có thể tham gia các CLB ở KTX Bk, xem thêm tại mục 'các câu lạc bộ' trên trang web: ktxbk.vn .","Bạn vui lòng xem thêm tại mục 'các câu lạc bộ' trên trang web: ktxbk.vn"],
+  "context": [""]
+  },
+  {"tag": "9",
+    "patterns": ["kỷ luật","không được làm","xử lý","quy định","vi phạm","không được làm gì ở ktx"],
+    "responses": ["Bạn có thể đọc thêm tại mục 'quy định xử lý kỷ luật' trên trang web: ktxbk.vn.","Bạn vui lòng đọc thêm tại mục 'quy định xử lý kỷ luật' trên trang web: ktxbk.vn."],
+    "context": [""]
+  },
+  {"tag": "10",
+    "patterns": ["thang điểm","đánh giá lưu trú", "điểm rèn luyện", "đrl","đánh giá sinh viên","điểm"],
+    "responses": ["Bạn có thể đọc thêm tại mục 'thang điểm lưu trú' trên trang web: ktxbk.vn.","Bạn vui lòng đọc thêm tại mục 'thang điểm lưu trú' trên trang web: ktxbk.vn."],
+    "context": [""]
+  },
+  {"tag": "11",
+    "patterns": ["qua đêm","đi qua đêm không về ktx", "qua đêm bên ngoài", "ngủ ở ngoài ktx","đi vắng vài ngày","vắng mặt","đi qua đêm ngoài ktx được không"],
+    "responses": ["Được phép đi qua đêm nhưn phải điền form đăng ký để không bị trừ điểm rèn luyện bạn nhé!","Bạn phải điền form thông báo khi qua đêm hay vắng mặt vài ngày để tránh bị trừ diểm nhé."]   
+  },
+  {"tag": "12",
+    "patterns": ["có được uống bia trong ktx không","có được uống rượi trong ktx không", "rượi bia", "nhậu","ăn nhậu trong ktx"],
+    "responses": ["Không được phép sử dụng các thức uống có cồn như bia rượi trong ktx nhé."]   
+  }
+  
+] 
+  
+  
+}

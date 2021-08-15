@@ -1,0 +1,91 @@
+{"room": [
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Xin lỗi, Chatbot chưa hiểu yêu cầu của bạn ! Bạn vui lòng gửi lại câu hỏi nhé !"],
+     "context": [""]
+    },
+    { "tag":"101",
+    "patterns":["canteen","căn tin","101","mua đồ ăn","ăn tối","ăn ở đâu trong KTX","có thể ăn ở đâu","ktx có chỗ bán thức ăn không?"],
+    "responses":["Phòng 101 là canteen"]
+    },
+    {"tag": "102",
+    "patterns": ["phòng gym","gym","102"],
+    "responses":["Phòng 102 là phòng gym."]
+    },
+    {"tag": "103",
+    "patterns": ["Phòng aikido","aikido","103","tập aikio ở đâu"],
+    "responses":["Phòng 103 là Phòng aikido."]
+    },
+    {"tag": "104",
+    "patterns": ["Phòng tự học chung - sinh hoạt clb","104","có thể học","clb","sinh hoat"],
+    "responses":["Phòng 104 là Phòng tự học chung - sinh hoạt clb."]
+    },
+    {"tag": "105",
+    "patterns": ["105","gặp thầy Phúc","gặp giám đốc","Phòng Giám đốc KTX"],
+    "responses":["Phòng 105 là Phòng Giám đốc KTX."]
+    },
+    {"tag": "106",
+    "patterns": ["Hội trường","106"],
+    "responses":["Phòng 106 là Hội trường."]
+    },
+    {"tag": "107",
+    "patterns": ["Phòng Phó giám đốc ktx","gặp thầy Vững","107"],
+    "responses":["Phòng 107 là Phòng Phó giám đốc ktx."]
+    },
+    {"tag": "108",
+    "patterns": ["108","Phòng Tài chính kế hoạch","đến đóng tiền","tài chính"],
+    "responses":["Phòng 108 là Phòng Tài chính kế hoạch."]
+    },
+    {"tag": "109",
+    "patterns": ["Văn phòng","109"],
+    "responses":["Phòng 109 là Văn phòng. "]
+    },    
+    {"tag": "110",
+    "patterns": ["phòng y tế","110","tới chữa trị", "tới khám bệnh"],
+    "responses":["Phòng 110 là phòng y tế. "]
+    },
+    {"tag": "111",
+    "patterns": ["phòng bảo vệ","tới gặp bảo vệ", "gặp bảo vệ ở đâu"],
+    "responses":[""]
+    },
+    {"tag": "300",
+    "patterns": ["còn phòng không","phòng trống", "ktx còn phòng trống không"],
+    "responses":["KTX còn tổng cộng 30 phòng trống, không biết bạn quan tâm đến loại nào?"]
+    },
+    {"tag": "301",
+        "patterns": ["có những loại phòng nào","loại phòng"],
+        "responses":["Có tất cả 5 loại phòng: phòng thường 4 người, phòng thường 6 người, phòng thường 8 người, phòng dịch vụ 4 người, phòng dịch vụ 6 người."]
+    },
+    {"tag": "302",
+        "patterns": ["còn bao nhiêu phòng dịch vụ 4 người","phòng xịn nhất","phòng tốt nhất","còn dịch vụ 4 người", "số phòng dịch vụ 4 người", "số dịch vụ bốn người","còn dv 4"],
+        "responses":["KTX còn 10 phòng dịch vụ 4 người bạn nhé."]
+    },
+    {"tag": "303",
+    "patterns": ["còn bao nhiêu phòng dịch vụ 6 người","còn dịch vụ 6 người", "số phòng dịch vụ 6 người", "số dịch vụ sáu người","còn dv 6"],
+    "responses":["KTX còn 5 phòng dịch vụ 6 người bạn nhé."]
+    },
+    {"tag": "304",
+    "patterns": ["còn bao nhiêu phòng thường 4 người","còn thường 4 người", "số phòng thường 4 người", "số thường bốn người","còn thường 4"],
+    "responses":["KTX còn 12 phòng thường 4 người bạn nhé."]
+    },
+    {"tag": "305",
+    "patterns": ["còn bao nhiêu phòng thường 6 người","còn thường 6 người", "số phòng thường 6 người", "số thường sáu người","còn thường 6"],
+    "responses":["KTX còn 3 phòng thường 6 người bạn nhé."]
+    },    
+    {"tag": "306",
+    "patterns": ["còn bao nhiêu phòng thường 8 người","còn thường 8 người","phòng rẻ nhất","loại phòng cùi nhất","loại rẻ tiền nhất", "số phòng thường 8 người", "số thường tám người","còn thường 8"],
+    "responses":["KTX đã hết phòng thường 8 người bạn nhé."]
+    },
+    {"tag": "307",
+    "patterns": ["KTX ở đâu","vị trí của ktx","vị trí của ký túc xá","ký túc xá ở đâu"],
+    "responses":["KTX ở 497 Hoà Hảo, phường 7, Quận 10, tpHCM.","KTX ở 497 Hoà Hảo, phường 7, Quận 10, tpHCM. Còn với mình thì KTX ở trong tym bạn nhé <3"]
+    },
+    {"tag": "308",
+    "patterns": ["Gần chỗ nào","KTX ở gần chỗ nào","ở gần đâu","ktx ở gần nơi nào","gần những nơi nào"],
+    "responses":["KTX nằm sát siêu thị CoopMart Lý Thường Kiệt, gần sân banh Thống Nhất."]
+    }
+    
+
+
+]
+}
