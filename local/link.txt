@@ -1,9 +1,0 @@
-E:\drive\DAIHOC\nam5\LV ky_10\AI-Chatbot\env\Scripts
-cd env\Scripts &&  activate
-
-cd E:\drive\DAIHOC\nam5\LV ky_10\AI-Chatbot\local
-
-python app.py
-
-
-https://forms.gle/ddZUjGSnMzMrjgTP6
