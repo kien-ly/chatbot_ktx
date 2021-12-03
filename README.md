@@ -86,5 +86,18 @@ The ER diagram as follows:
 ### B.	Building a Database in MySQL
 
 ## IV.	Web server
+To do this project, I rented a cloud server from the website: https://my.cloudfly.vn/ with the following machine configuration:
 
+![ct](images/7.png)
 
+![ct](images/10.5.png)
+
+1.	Caddy
+
+In this thesis, I used Caddy server to configure my applications. Caddy is a server of servers (most people use Caddy as a web server or proxy), written in the Go language. With the necessary modules, it can take on the role of any lengthy processing.
+Configurations are both dynamic and exportable with Caddy's API. Although no configuration files are required, you can still use them; The format of the configuration document comes in many forms with the configuration adapter, but Caddy's native configuration language is JSON. Most people's favorite way of configuring Caddy is to use the Caddyfile [4]. And in this thesis I also use Caddyfile to configure my server.
+
+2.  Gunicorn
+
+4. 
+5.  
