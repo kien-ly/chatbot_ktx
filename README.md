@@ -33,11 +33,25 @@ We proceed to create a training set for the network. We first create an empty "t
 ![json](images/2.png)
 
 ***2)	Neural network design and training***
+
 The process of designing an artificial neural network is as follows:
 - The input data consists of a number of lists with the number of elements equal to the size of the set "words" with a dimension. The input layer has 256 network nodes with the activation function "ReLU". The middle layer consists of 128 network layers with the activation function "ReLU". The output layer has the number of nodes equal to the number of topics in the topic set (5 topics are applied in this thesis) and the output activation function is "softmax".
 - Use a loss function of the form "categorical-rossentropy" with the SGD + NAG optimization method with a momentum factor of 0.82, a learning factor of 0.01 and a delay factor of  10 -8 . Train 200 times with batch-size factor = 5. Network evaluation is based on the number of correct predictions on accuracy and loss function value.
 - Conduct training neural network, we have training results as shown below. Based on that result, we find that the models give high accuracy close to 1 and error almost equal. With such a result, threading and topic selection will be almost exactly the same as the request from the input. About the threading algorithm as well as the search algorithm will be presented in the following section. 
 
+![kq](images/3.png)
+
+### C.	Input processing and threading
+
+After building and training the models, we begin to process the input data to match the input of the neural network. The process of input data processing is similar to the process of creating a training set for a neural network. First, we separate the word in the sentence, filter the punctuation and convert it to lowercase. Next, we create a place to collect the words that are both in the sentence and in the list of "works" saved in pickle form. Then convert those words into binary network form and as input to the switch model, which returns the request to its subject model. Here, the system includes the following models:
+
+![ct](images/4.png)
+
+-	greet: This model simply responds to simple sentences like hello, thank you or goodbye to make it feel more friendly and natural.
+-	fee: This model helps us to answer questions related to service fees in the Dormitory.
+-	room: This model helps us to answer questions related to the type of room and its location in the Dormitory.
+-	staff: This model helps us answer questions related to the staff working in the Dormitory.
+-	rule: This model helps us to answer 
 
 ## II.	USER COMMUNICATION METHOD
 
