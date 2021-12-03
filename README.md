@@ -12,7 +12,7 @@
 ## I.	NEURAL NETWORK MODEL FOR CHATBOT
 The role of blocks will be presented in the following diagram:
 
-![diagram](images\1.png)
+![diagram](img src="images/1.png")
 
 ## II.	USER COMMUNICATION METHOD
 
