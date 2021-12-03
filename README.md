@@ -18,9 +18,6 @@ And here is a website I have made and added my Chatbot to:
 [![xxx](https://img.youtube.com/vi/V3DZiwZOgUI/0.jpg)](https://www.youtube.com/watch?v=V3DZiwZOgUI)
 
 
-![diagram](images/15.png)
-
-
 ## I.	NEURAL NETWORK MODEL FOR CHATBOT
 ### A.	Chatbot Overview
 The role of blocks will be presented in the following diagram:
