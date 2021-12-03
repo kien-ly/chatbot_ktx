@@ -1,4 +1,4 @@
-# AI Chatbot (voice + text) on Facebook Messenger
+# AI Chatbot Facebook Messenger (voice + text)
 
 ## The content of the project includes:
 -	Build basic neural network chatbot according to Retrieval-Base model.
