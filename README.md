@@ -62,10 +62,29 @@ After building and training the models, we begin to process the input data to ma
 
 ## II.	USER COMMUNICATION METHOD
 
+The process of processing communication with text and voice.
+
+![ct](images/10.png)
+
+### Web interface
+
+![ct](images/11.png)
+
+![ct](images/12.png)
+
+
+### Facebook messenger
+
+![ct](images/13.png)
+
+![ct](images/14.png)
+
 ## III. DATABASE SYSTEM
 ### A.	Database Management System (DBMS)
 The ER diagram as follows:
 
 ### B.	Building a Database in MySQL
+
+## IV.	Web server
 
 
