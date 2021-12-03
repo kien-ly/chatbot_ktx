@@ -13,6 +13,9 @@ Here is a [website](http://www.ktxbk.vn/) of Domitory.
 
 And here is a website I have made and added my Chatbot to: 
 
+{@youtube: https://www.youtube.com/watch?v=V3DZiwZOgUI}
+
+
 ![diagram](images/15.png)
 
 
@@ -65,6 +68,10 @@ After building and training the models, we begin to process the input data to ma
 The process of processing communication with text and voice.
 
 ![ct](images/10.png)
+
+This chatbot has two communication functions on text request or on voice request. Accordingly, with the text function, users only need to text the message box and then press Enter, the request will be sent to the system and processed. Same voice function when user presses the Record button. To avoid errors, when the user has pressed the Record button, the Record button will be disabled immediately until the system returns the results.
+
+When converting speech to text, we use the Recognize Google tool, and when converting text to speech, we use the gTTS tool. These tools are all available in Python and are provided by the Google API.
 
 ### Web interface
 
