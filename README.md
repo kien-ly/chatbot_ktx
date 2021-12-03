@@ -95,9 +95,15 @@ To do this project, I rented a cloud server from the website: https://my.cloudfl
 1.	Caddy
 
 In this thesis, I used Caddy server to configure my applications. Caddy is a server of servers (most people use Caddy as a web server or proxy), written in the Go language. With the necessary modules, it can take on the role of any lengthy processing.
-Configurations are both dynamic and exportable with Caddy's API. Although no configuration files are required, you can still use them; The format of the configuration document comes in many forms with the configuration adapter, but Caddy's native configuration language is JSON. Most people's favorite way of configuring Caddy is to use the Caddyfile [4]. And in this thesis I also use Caddyfile to configure my server.
+Configurations are both dynamic and exportable with Caddy's API. Although no configuration files are required, you can still use them; The format of the configuration document comes in many forms with the configuration adapter, but Caddy's native configuration language is JSON. Most people's favorite way of configuring Caddy is to use the Caddyfile. And in this thesis I also use Caddyfile to configure my server.
 
 2.  Gunicorn
 
-4. 
-5.  
+Gunicorn ‘Green Unicorn’ is a Python WSGI HTTP Server for UNIX. It’s a pre-fork worker model ported from Ruby’s Unicorn project. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy [5]. Gunicorn is easy to use and supports many different web frameworks like Django, Flask... 
+
+3. Supervisor
+
+Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems. Supervisor is useful tool to monitor and control Gunicorn. I have configured Gunicorn simply with supervisor at port 8080.
+
+![ct](images/9.png)
+
