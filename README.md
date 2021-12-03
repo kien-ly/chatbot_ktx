@@ -14,6 +14,7 @@ Here is a [website](http://www.ktxbk.vn/) of Domitory.
 And here is a website I have made and added my Chatbot to: 
 
 {@youtube: https://www.youtube.com/watch?v=V3DZiwZOgUI}
+[![xxx](https://img.youtube.com/vi/V3DZiwZOgUI/0.jpg)](https://www.youtube.com/watch?v=V3DZiwZOgUI)
 
 
 ![diagram](images/15.png)
