@@ -13,7 +13,7 @@ Here is a [website](http://www.ktxbk.vn/) of Domitory.
 
 And here is a website I have made and added my Chatbot to: 
 
-{@youtube: https://www.youtube.com/watch?v=V3DZiwZOgUI}
+https://www.youtube.com/watch?v=V3DZiwZOgUI
 
 [![xxx](https://img.youtube.com/vi/V3DZiwZOgUI/0.jpg)](https://www.youtube.com/watch?v=V3DZiwZOgUI)
 
@@ -89,7 +89,16 @@ When converting speech to text, we use the Recognize Google tool, and when conve
 ### A.	Database Management System (DBMS)
 The ER diagram as follows:
 
+![ct](images/5.png)
+
 ### B.	Building a Database in MySQL
+I have set up MySQL at port 3306 on webserver
+
+![ct](images/6.5.png)
+
+Then, I have set up a database system on it.
+
+![ct](images/6.png)
 
 ## IV.	Web server
 To do this project, I rented a cloud server from the website: https://my.cloudfly.vn/ with the following machine configuration:
