@@ -14,6 +14,10 @@ The role of blocks will be presented in the following diagram:
 
 ![diagram](images/1.png)
 
+1. NLP block: Remove punctuation, separate words (tokenize), convert words to primitive form (lemmaztize), convert to lower case (lower) and process input sentences into appropriate data as input for the ANN block.
+2. ANN block: Performs prediction of input sentences in topic group and predicts which topic in that group based on probability.
+3. Processing and searching block: Process and collect information on the output of the ANN block, using algorithms and databases to get the most appropriate answer.
+
 ## II.	USER COMMUNICATION METHOD
 
 ## III. DATABASE SYSTEM
