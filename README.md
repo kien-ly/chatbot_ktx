@@ -15,9 +15,20 @@ And here is a website I have made and added my Chatbot to:
 
 https://www.youtube.com/watch?v=V3DZiwZOgUI
 
-[![xxx](https://img.youtube.com/vi/V3DZiwZOgUI/0.jpg)](https://www.youtube.com/watch?v=V3DZiwZOgUI)
+![xxx](https://img.youtube.com/vi/V3DZiwZOgUI/0.jpg)](https://www.youtube.com/watch?v=V3DZiwZOgUI)
 
+there are two folders in my project: 
+- local: run AI chatbot in website interface
 
+- server: deploy chatbot to public internet and messenger facebook.
+
+They have several files in it that are the same: 
+- app.py : main project
+- voicebot.py : processing voice to text and vice versa.
+- chattrain.py: trainning model.
+- dbconfig.py: working with database (or note if using json file)
+- chatprocess.py: AI process.
+...
 ## I.	NEURAL NETWORK MODEL FOR CHATBOT
 ### A.	Chatbot Overview
 The role of blocks will be presented in the following diagram:
