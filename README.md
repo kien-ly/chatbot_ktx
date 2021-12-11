@@ -11,7 +11,7 @@
 
 Here is a [website](http://www.ktxbk.vn/) of Domitory.
 
-And here is a website which I have made and added my Chatbot to: 
+And here is a website which I have made and added my Chatbot to.
 
 https://www.youtube.com/watch?v=V3DZiwZOgUI
 
