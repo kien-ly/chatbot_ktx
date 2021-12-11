@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=V3DZiwZOgUI
 [![xxx](https://img.youtube.com/vi/V3DZiwZOgUI/0.jpg)](https://www.youtube.com/watch?v=V3DZiwZOgUI)
 
 there are two folders in my project: 
-- local: run AI chatbot in website interface
+- local: run AI chatbot in website interface (port 8080 local)
 
 - server: deploy chatbot to public internet and messenger facebook.
 
